@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-30T20:58:31 IST" name="Suite" finished-at="2023-11-30T20:59:02 IST" duration-ms="30808">
+    <groups>
+    </groups>
+    <test started-at="2023-11-30T20:58:31 IST" name="Employee_Test" finished-at="2023-11-30T20:58:44 IST" duration-ms="12578">
+      <class name="com.QA.tests.Employee_Test">
+        <test-method is-config="true" signature="set_Up()[pri:0, instance:com.QA.tests.Employee_Test@5f9b2141]" started-at="2023-11-30T20:58:31 IST" name="set_Up" finished-at="2023-11-30T20:58:33 IST" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Up -->
+        <test-method signature="Create_Employee_Details_Test()[pri:1, instance:com.QA.tests.Employee_Test@5f9b2141]" started-at="2023-11-30T20:58:33 IST" name="Create_Employee_Details_Test" finished-at="2023-11-30T20:58:38 IST" duration-ms="5325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Employee_Details_Test -->
+        <test-method signature="Get_Employee_Details_Test()[pri:2, instance:com.QA.tests.Employee_Test@5f9b2141]" started-at="2023-11-30T20:58:38 IST" name="Get_Employee_Details_Test" finished-at="2023-11-30T20:58:40 IST" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Employee_Details_Test -->
+        <test-method signature="Update_Employee_Details_Test()[pri:3, instance:com.QA.tests.Employee_Test@5f9b2141]" started-at="2023-11-30T20:58:40 IST" name="Update_Employee_Details_Test" finished-at="2023-11-30T20:58:42 IST" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update_Employee_Details_Test -->
+        <test-method signature="Delete_Employee_Details_Test()[pri:4, instance:com.QA.tests.Employee_Test@5f9b2141]" started-at="2023-11-30T20:58:42 IST" name="Delete_Employee_Details_Test" finished-at="2023-11-30T20:58:44 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Employee_Details_Test -->
+      </class> <!-- com.QA.tests.Employee_Test -->
+    </test> <!-- Employee_Test -->
+    <test started-at="2023-11-30T20:58:44 IST" name="Booking_Test" finished-at="2023-11-30T20:59:02 IST" duration-ms="17437">
+      <class name="com.QA.tests.Booking_Test">
+        <test-method is-config="true" signature="Set_Up()[pri:0, instance:com.QA.tests.Booking_Test@2b91004a]" started-at="2023-11-30T20:58:44 IST" name="Set_Up" finished-at="2023-11-30T20:58:45 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Set_Up -->
+        <test-method signature="Create_Booking_test()[pri:1, instance:com.QA.tests.Booking_Test@2b91004a]" started-at="2023-11-30T20:58:45 IST" name="Create_Booking_test" finished-at="2023-11-30T20:58:49 IST" duration-ms="4305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Booking_test -->
+        <test-method signature="Get_Booking_Test()[pri:2, instance:com.QA.tests.Booking_Test@2b91004a]" started-at="2023-11-30T20:58:49 IST" name="Get_Booking_Test" finished-at="2023-11-30T20:58:52 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Booking_Test -->
+        <test-method signature="Update_Booking_Test()[pri:3, instance:com.QA.tests.Booking_Test@2b91004a]" started-at="2023-11-30T20:58:52 IST" name="Update_Booking_Test" finished-at="2023-11-30T20:58:57 IST" duration-ms="5449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update_Booking_Test -->
+        <test-method signature="Delete_Booking_Test()[pri:4, instance:com.QA.tests.Booking_Test@2b91004a]" started-at="2023-11-30T20:58:57 IST" name="Delete_Booking_Test" finished-at="2023-11-30T20:59:02 IST" duration-ms="4906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Booking_Test -->
+      </class> <!-- com.QA.tests.Booking_Test -->
+    </test> <!-- Booking_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

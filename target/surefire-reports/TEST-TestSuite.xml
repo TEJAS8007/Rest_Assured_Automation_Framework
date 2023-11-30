@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="32.019" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_Assured_Automation_FrameWork\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_Assured_Automation_FrameWork\target\classes;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\HP\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\HP\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\HP\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\HP\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\HP\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\HP\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\HP\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\HP\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\HP\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire15629595794727278192\surefirebooter-20231130205830022_3.jar C:\Users\HP\AppData\Local\Temp\surefire15629595794727278192 2023-11-30T20-58-29_068-jvmRun1 surefire-20231130205830022_1tmp surefire_0-20231130205830022_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_Assured_Automation_FrameWork\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_Assured_Automation_FrameWork\target\classes;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\HP\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\HP\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\HP\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\HP\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\HP\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\HP\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\HP\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\HP\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\HP\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\HP\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_Assured_Automation_FrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire15629595794727278192\surefirebooter-20231130205830022_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_Assured_Automation_FrameWork"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.4\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Android\Sdk\tools;C:\Users\HP\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Android\Android Studio\bin;C:\Users\HP\.appium;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\OneDrive\Desktop\jar\sikuli1\sikuli1\libs;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Create_Employee_Details_Test" classname="com.QA.tests.Employee_Test" time="5.343">
+    <system-out><![CDATA[Employee----Payload......
+{
+  "name" : "Kimberli",
+  "age" : "13",
+  "salary" : "49532"
+}
+[DEBUG] 2023-11-30 20:58:33.481 [main] Employee_Test - Employee_API_Test Started
+[INFO ] 2023-11-30 20:58:33.525 [main] Employee_Test - Employee_API_Create_employee_Test Started...
+[INFO ] 2023-11-30 20:58:37.687 [main] Employee_Test - Employee_API_Create_employee_Test Assertion passed...
+HTTP/1.1 200 OK
+Date: Thu, 30 Nov 2023 15:28:36 GMT
+Server: Apache
+Cache-Control: no-cache, private
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 58
+Upgrade: h2,h2c
+Connection: Upgrade, Keep-Alive
+Cache-Control: max-age=21600
+Expires: Thu, 30 Nov 2023 21:28:36 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Newfold-Cache-Level: 2
+X-Endurance-Cache-Level: 2
+X-nginx-cache: WordPress
+Content-Length: 131
+Keep-Alive: timeout=5, max=75
+Content-Type: application/json
+
+{
+    "status": "success",
+    "data": {
+        "name": "Kimberli",
+        "age": "13",
+        "salary": "49532",
+        "id": 9315
+    },
+    "message": "Successfully! Record has been added."
+}
+Response id : 9315
+[INFO ] 2023-11-30 20:58:38.834 [main] Employee_Test - Employee_API_Create_employee_Test Ended...
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="Get_Employee_Details_Test" classname="com.QA.tests.Employee_Test" time="2.034">
+    <system-out><![CDATA[[INFO ] 2023-11-30 20:58:38.861 [main] Employee_Test - Employee_API_Get_employee_Test Started...
+HTTP/1.1 429 Too Many Requests
+Date: Thu, 30 Nov 2023 15:28:39 GMT
+Server: Apache
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 57
+Retry-After: 57
+X-RateLimit-Reset: 1701358176
+Cache-Control: no-cache, private
+Upgrade: h2,h2c
+Connection: Upgrade, Keep-Alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Newfold-Cache-Level: 2
+X-Endurance-Cache-Level: 2
+X-nginx-cache: WordPress
+Content-Length: 57
+Keep-Alive: timeout=5, max=75
+Content-Type: application/json
+
+{
+    "message": "Too Many Attempts."
+}
+[INFO ] 2023-11-30 20:58:40.816 [main] Employee_Test - Employee_API_Get_employee_Test Started...
+]]></system-out>
+  </testcase>
+  <testcase name="Update_Employee_Details_Test" classname="com.QA.tests.Employee_Test" time="1.704">
+    <system-out><![CDATA[[INFO ] 2023-11-30 20:58:40.816 [main] Employee_Test - Employee_API_Update_employee_Test Started...
+HTTP/1.1 429 Too Many Requests
+Date: Thu, 30 Nov 2023 15:28:41 GMT
+Server: Apache
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 56
+Retry-After: 55
+X-RateLimit-Reset: 1701358176
+Cache-Control: no-cache, private
+Upgrade: h2,h2c
+Connection: Upgrade, Keep-Alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Newfold-Cache-Level: 2
+X-Endurance-Cache-Level: 2
+X-nginx-cache: WordPress
+Content-Length: 57
+Keep-Alive: timeout=5, max=75
+Content-Type: application/json
+
+{
+    "message": "Too Many Attempts."
+}
+[INFO ] 2023-11-30 20:58:42.574 [main] Employee_Test - Employee_API_Update_employee_Test Started...
+]]></system-out>
+  </testcase>
+  <testcase name="Delete_Employee_Details_Test" classname="com.QA.tests.Employee_Test" time="1.608">
+    <system-out><![CDATA[[INFO ] 2023-11-30 20:58:42.587 [main] Employee_Test - Employee_API_Delete_employee_Test Started...
+HTTP/1.1 429 Too Many Requests
+Date: Thu, 30 Nov 2023 15:28:43 GMT
+Server: Apache
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 55
+Retry-After: 53
+X-RateLimit-Reset: 1701358176
+Cache-Control: no-cache, private
+Upgrade: h2,h2c
+Connection: Upgrade, Keep-Alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Newfold-Cache-Level: 2
+X-Endurance-Cache-Level: 2
+X-nginx-cache: WordPress
+Content-Length: 57
+Keep-Alive: timeout=5, max=75
+Content-Type: application/json
+
+{
+    "message": "Too Many Attempts."
+}
+[INFO ] 2023-11-30 20:58:44.174 [main] Employee_Test - Employee_API_Delete_employee_Test Started...
+]]></system-out>
+  </testcase>
+  <testcase name="Create_Booking_test" classname="com.QA.tests.Booking_Test" time="4.347">
+    <system-out><![CDATA[{
+  "firstname" : "Eddy",
+  "lastname" : "Nikolaus",
+  "totalprice" : 752,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2022-12-31",
+    "checkout" : "2023-01-31"
+  },
+  "additionalneeds" : "Breakfast"
+}
+[DEBUG] 2023-11-30 20:58:45.043 [main] Booking_Test - Booking_API_Test Started...
+[INFO ] 2023-11-30 20:58:45.043 [main] Booking_Test - Booking API Create User Test Started....
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701358128&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=aKwodgD0foMYPNm1rh1hLi9xdsyJpk9b0yZDRctjc4o%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701358128&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=aKwodgD0foMYPNm1rh1hLi9xdsyJpk9b0yZDRctjc4o%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 201
+Etag: W/"c9-/IL5PJuMy7loXlYYbCqrj50gTlw"
+Date: Thu, 30 Nov 2023 15:28:48 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 3630,
+    "booking": {
+        "firstname": "Eddy",
+        "lastname": "Nikolaus",
+        "totalprice": 752,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2022-12-31",
+            "checkout": "2023-01-31"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+[INFO ] 2023-11-30 20:58:49.299 [main] Booking_Test - Booking API Create User Test status Assertion passed....
+3630
+[INFO ] 2023-11-30 20:58:49.348 [main] Booking_Test - Booking API Create User Test Ended....
+]]></system-out>
+  </testcase>
+  <testcase name="Get_Booking_Test" classname="com.QA.tests.Booking_Test" time="2.631">
+    <system-out><![CDATA[[INFO ] 2023-11-30 20:58:49.348 [main] Booking_Test - Booking API Get User Test Started....
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701358130&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=noT4etPAHWBoBJsGhzqUTydaDyfPWIqD%2Bj0idH8bUH0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701358130&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=noT4etPAHWBoBJsGhzqUTydaDyfPWIqD%2Bj0idH8bUH0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-j2TeQ6ecJy8L0chtgPsfVT7VB9U"
+Date: Thu, 30 Nov 2023 15:28:50 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Eddy",
+    "lastname": "Nikolaus",
+    "totalprice": 752,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-12-31",
+        "checkout": "2023-01-31"
+    },
+    "additionalneeds": "Breakfast"
+}
+[INFO ] 2023-11-30 20:58:51.408 [main] Booking_Test - Booking API Get User Test Assertion passed....
+Server : Cowboy
+Report-To : {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701358130&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=noT4etPAHWBoBJsGhzqUTydaDyfPWIqD%2Bj0idH8bUH0%3D"}]}
+Reporting-Endpoints : heroku-nel=https://nel.heroku.com/reports?ts=1701358130&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=noT4etPAHWBoBJsGhzqUTydaDyfPWIqD%2Bj0idH8bUH0%3D
+Nel : {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection : keep-alive
+X-Powered-By : Express
+Content-Type : application/json; charset=utf-8
+Content-Length : 172
+Etag : W/"ac-j2TeQ6ecJy8L0chtgPsfVT7VB9U"
+Date : Thu, 30 Nov 2023 15:28:50 GMT
+Via : 1.1 vegur
+[INFO ] 2023-11-30 20:58:52.036 [main] Booking_Test - Booking API Create User Test Ended....
+]]></system-out>
+  </testcase>
+  <testcase name="Update_Booking_Test" classname="com.QA.tests.Booking_Test" time="5.48">
+    <system-out><![CDATA[[INFO ] 2023-11-30 20:58:52.036 [main] Booking_Test - Booking API Update User Test Started....
+HTTP/1.1 403 Forbidden
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701358136&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=R5EPcd%2Bv0JxivtRTSxuFeNXx8cWWrwa277XFAmRzYGo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701358136&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=R5EPcd%2Bv0JxivtRTSxuFeNXx8cWWrwa277XFAmRzYGo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+Date: Thu, 30 Nov 2023 15:28:56 GMT
+Via: 1.1 vegur
+
+Forbidden
+[INFO ] 2023-11-30 20:58:57.485 [main] Booking_Test - Booking API Update User Test Ended....
+]]></system-out>
+  </testcase>
+  <testcase name="Delete_Booking_Test" classname="com.QA.tests.Booking_Test" time="4.901">
+    <system-out><![CDATA[[INFO ] 2023-11-30 20:58:57.495 [main] Booking_Test - Booking API Delete User Test Started....
+HTTP/1.1 403 Forbidden
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701358141&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=%2FK547n3CimoAYRULKgt2UD3ye%2FMXLlJSuIAEpY6VyWQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701358141&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=%2FK547n3CimoAYRULKgt2UD3ye%2FMXLlJSuIAEpY6VyWQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+Date: Thu, 30 Nov 2023 15:29:01 GMT
+Via: 1.1 vegur
+
+Forbidden
+[INFO ] 2023-11-30 20:59:02.401 [main] Booking_Test - Booking API Create User Test ended....
+]]></system-out>
+  </testcase>
+</testsuite>
